@@ -1,7 +1,7 @@
 # Voltscope
 
 Structured extraction and deterministic validation for UK commercial energy
-bills. The bill-intelligence module of VoltEdge. MIT licensed.
+bills. The bill-intelligence module of VoltEdge. Proprietary, see [LICENSE](LICENSE).
 
 Point it at a folder of supplier bills (PDFs or images). For each one it:
 
@@ -20,7 +20,7 @@ A one-page overview is in [docs/Voltscope_Executive_Summary.pdf](docs/Voltscope_
 ## Quick start
 
 ```bash
-git clone https://github.com/ShazMoghaddam/voltscope.git
+git clone https://github.com/Moghaddam-Labs/voltscope.git
 cd voltscope
 ./run.sh                 # creates the venv, installs deps, starts the app
 ```
@@ -353,3 +353,16 @@ A single bill photographed across several images is extracted as one bill three 
 
 Under the hood the pages are sent to the model together in a single request, so
 it reads the whole bill at once rather than extracting disconnected fragments.
+
+## Licence
+
+Proprietary. All rights reserved. The source is published for viewing only; see
+[LICENSE](LICENSE). For commercial licensing, get in touch.
+
+## Author
+
+**Shaz Moghaddam**, London
+
+- Website: [shazmoghaddam.github.io](https://shazmoghaddam.github.io/)
+- LinkedIn: [linkedin.com/in/shazmoghaddam](https://www.linkedin.com/in/shazmoghaddam/)
+- GitHub: [github.com/Moghaddam-Labs](https://github.com/Moghaddam-Labs)
