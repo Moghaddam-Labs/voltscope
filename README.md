@@ -1,3 +1,5 @@
+![VoltScope: reads UK commercial energy bills and checks the figures](docs/assets/readme-banner.png)
+
 # Voltscope
 
 Structured extraction and deterministic validation for UK commercial energy
