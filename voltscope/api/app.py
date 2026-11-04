@@ -18,6 +18,7 @@ from typing import Any, Dict, List, Optional
 from fastapi import APIRouter, Body, Depends, FastAPI, HTTPException, Query, UploadFile
 from fastapi.responses import FileResponse, HTMLResponse, Response
 
+from .. import __version__
 from ..config import Settings
 from ..intelligence import IntelligenceReport
 from ..logging_config import configure_logging, get_logger
@@ -100,7 +101,7 @@ def create_app(
 
     app = FastAPI(
         title="VoltScope Review",
-        version="0.5.0",
+        version=__version__,
         description=_DESCRIPTION,
         openapi_tags=_TAGS,
     )
