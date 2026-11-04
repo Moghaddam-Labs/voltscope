@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Start Voltscope locally. Creates the virtual environment and installs
+# Start VoltScope locally. Creates the virtual environment and installs
 # dependencies on first run, then launches the review app.
 #
 #   ./run.sh
@@ -16,5 +16,5 @@ fi
 
 # shellcheck disable=SC1091
 source .venv/bin/activate
-echo "Starting Voltscope at http://127.0.0.1:8000  (Ctrl+C to stop)"
+echo "Starting VoltScope at http://127.0.0.1:8000  (Ctrl+C to stop)"
 python -m voltscope.api

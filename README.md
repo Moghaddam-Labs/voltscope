@@ -1,6 +1,6 @@
 ![VoltScope: reads UK commercial energy bills and checks the figures](docs/assets/readme-banner.png)
 
-# Voltscope
+# VoltScope
 
 Structured extraction and deterministic validation for UK commercial energy
 bills. The bill-intelligence module of VoltEdge. Proprietary, see [LICENSE](LICENSE).
@@ -336,7 +336,7 @@ alert (the fixed term ends inside the switching window).
 
 ## Non-energy bill detection
 
-Voltscope is scoped to electricity and gas. A non-energy document (a water bill,
+VoltScope is scoped to electricity and gas. A non-energy document (a water bill,
 say) still runs through extraction, but the validator now flags it: when a bill
 has supply points yet none carry an energy signal (no electricity/gas fuel type,
 no MPAN/MPRN, no p/kWh unit rate, no kWh reading), the `not_energy_bill` finding

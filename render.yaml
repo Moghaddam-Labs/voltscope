@@ -1,4 +1,4 @@
-# Render Blueprint for Voltscope (https://render.com/docs/blueprint-spec)
+# Render Blueprint for VoltScope (https://render.com/docs/blueprint-spec)
 #
 # Deploy with: Render dashboard -> New -> Blueprint -> point at this repo.
 # A persistent disk keeps the SQLite database across restarts and deploys.

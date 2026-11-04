@@ -38,7 +38,7 @@ _XLSX_MEDIA = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
 _CSV_SHEETS = ("bills", "supply_points", "charges", "findings")
 
 _DESCRIPTION = """
-Voltscope extracts structured data from UK commercial energy bills, validates it
+VoltScope extracts structured data from UK commercial energy bills, validates it
 with deterministic checks, and lets you review, correct, and export the results.
 
 * **Upload** one or more PDFs or images to extract and validate them.
@@ -99,7 +99,7 @@ def create_app(
     require_api_key = make_require_api_key(settings)
 
     app = FastAPI(
-        title="Voltscope Review",
+        title="VoltScope Review",
         version="0.5.0",
         description=_DESCRIPTION,
         openapi_tags=_TAGS,

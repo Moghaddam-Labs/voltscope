@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Voltscope Review</title>
+<title>VoltScope Review</title>
 <style>
   :root {
     --err: #b00020; --warn: #9a6700; --info: #0b5f99;
@@ -111,7 +111,7 @@
 <body>
 <header>
   <div>
-    <h1>Voltscope Review</h1>
+    <h1>VoltScope Review</h1>
     <div class="sub">Extract, validate and correct UK energy bills</div>
   </div>
   <div class="spacer"></div>
@@ -127,7 +127,7 @@
   <div class="about-grid">
     <div>
       <h3>What it is</h3>
-      <p>Voltscope reads photos or PDFs of UK energy bills and turns them into structured, checked data. Upload a bill and it pulls out every field &mdash; supplier, meter points, tariffs, reads and charges &mdash; validates the figures, and flags anything that looks wrong.</p>
+      <p>VoltScope reads photos or PDFs of UK energy bills and turns them into structured, checked data. Upload a bill and it pulls out every field &mdash; supplier, meter points, tariffs, reads and charges &mdash; validates the figures, and flags anything that looks wrong.</p>
     </div>
     <div>
       <h3>Built with</h3>
@@ -223,7 +223,7 @@ function authHeaders() {
 function promptKey(force) {
   let k = sessionStorage.getItem("vs_api_key");
   if (k && !force) return k;
-  k = window.prompt("Enter your Voltscope API key:", "");
+  k = window.prompt("Enter your VoltScope API key:", "");
   if (k) sessionStorage.setItem("vs_api_key", k);
   return k;
 }

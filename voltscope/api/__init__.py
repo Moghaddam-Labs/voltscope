@@ -1,4 +1,4 @@
-"""Voltscope review application (FastAPI backend + static frontend)."""
+"""VoltScope review application (FastAPI backend + static frontend)."""
 
 from .app import create_app
 
