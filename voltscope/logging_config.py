@@ -1,4 +1,4 @@
-"""Structured logging setup for Voltscope.
+"""Structured logging setup for VoltScope.
 
 Diagnostics (retries, skipped files, extraction errors) go through the logging
 system so the eventual API layer can route them properly. The human-facing

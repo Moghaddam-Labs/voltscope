@@ -1,4 +1,4 @@
-"""Application configuration for Voltscope.
+"""Application configuration for VoltScope.
 
 Settings are loaded once from environment variables (and an optional ``.env``
 file) into a single immutable :class:`Settings` object. No other module reads
@@ -28,7 +28,7 @@ DEFAULT_DB_PATH = "voltscope.db"
 
 @dataclass(frozen=True)
 class Settings:
-    """Immutable runtime configuration for a single Voltscope run."""
+    """Immutable runtime configuration for a single VoltScope run."""
 
     model: str
     bills_dir: Path

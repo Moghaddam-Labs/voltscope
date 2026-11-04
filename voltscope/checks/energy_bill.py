@@ -1,6 +1,6 @@
 """Check: does this look like a UK energy bill at all?
 
-Voltscope is scoped to electricity and gas. A non-energy document (a water bill,
+VoltScope is scoped to electricity and gas. A non-energy document (a water bill,
 say) still runs through extraction and comes back shaped like the energy schema
 but with none of the energy-specific signals: no electricity/gas fuel type, no
 MPAN/MPRN, no p/kWh unit rate, no kWh reading. When every one of those is absent
@@ -48,6 +48,6 @@ def check_energy_bill(bill: Mapping[str, Any]) -> List[Finding]:
                 "(no electricity/gas fuel type, MPAN/MPRN, unit rate, or kWh reading found)"
             ),
             affected_field="supply_points",
-            recommendation="Voltscope handles electricity and gas bills; check the uploaded document.",
+            recommendation="VoltScope handles electricity and gas bills; check the uploaded document.",
         )
     ]

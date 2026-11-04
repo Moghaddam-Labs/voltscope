@@ -1,4 +1,4 @@
-"""Voltscope: structured extraction and validation for UK commercial energy bills.
+"""VoltScope: structured extraction and validation for UK commercial energy bills.
 
 The bill-intelligence module of VoltEdge. Point it at a folder of supplier
 bills (PDFs or images); it extracts a fixed JSON schema via Claude, runs

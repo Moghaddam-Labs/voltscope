@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compatibility shim: ``python extract.py`` still runs Voltscope.
+"""Compatibility shim: ``python extract.py`` still runs VoltScope.
 
 The implementation now lives in the ``voltscope`` package. This file is kept so
 existing muscle memory, docs, and any scripts calling ``python extract.py``
